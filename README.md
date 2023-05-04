@@ -17,3 +17,6 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 This project is licensed under the MIT license
+
+## Walkthrough Video
+https://drive.google.com/file/d/1fkO1XnbJbzTeJl0xgNVCa17qRF1JIQsH/view
