@@ -2,9 +2,6 @@
 
 ## Installation
 To install this application, clone the repository and run npm install to install the necessary dependencies, including Inquirer version 8.2.4.
-git clone https://github.com/your-username/employee-summary-generator.git
-cd employee-summary-generator
-npm install
 
 ## Usage
 To run the application, use the following command:
