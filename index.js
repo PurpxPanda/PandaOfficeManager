@@ -4,6 +4,7 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
 const teamMembers = [];
+const generateHTML = require('./src/generateHTML');
 
 // function to start the app
 const startApp = () => {
