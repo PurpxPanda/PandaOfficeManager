@@ -1,4 +1,4 @@
-const createHtml = (employees) => {
+const generateHTML = (employees) => {
     // fill HTML for chosen employee
     let employeeHtml = ""
     employees.forEach(employee => {
@@ -8,13 +8,13 @@ const createHtml = (employees) => {
             employeeHtml += `
             <div class="card m-4 shadow-md text-center" style="width: 18rem;">
             <div class="card-body bg-warning">
-            <h2 class="card-title">${employee.getName()}</h2>
-            <h3 class="card-title fst-italic">${employee.getRole()}</h3>
+                 <h2 class="card-title">${employee.getName()}</h2>
+                 <h3 class="card-title fst-italic">${employee.getRole()}</h3>
             </div>
             <ul class="list-group list-group-flush">
-            <li class="list-group-item">ID: ${employee.getId()}</li>
-            <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
-            <li class="list-group-item">GitHub: <a href="https://github.com/${employee.getGithub()}" target="_blank">${employee.getGithub()}</a></li>
+                <li class="list-group-item">ID: ${employee.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
+                <li class="list-group-item">GitHub: <a href="https://github.com/${employee.getGithub()}" target="_blank">${employee.getGithub()}</a></li>
             </ul>
             </div>
             `
@@ -25,13 +25,13 @@ const createHtml = (employees) => {
             employeeHtml += `
             <div class="card m-4 shadow-md text-center" style="width: 18rem;">
             <div class="card-body bg-warning">
-            <h2 class="card-title">${employee.getName()}</h2>
-            <h3 class="card-title fst-italic">${employee.getRole()}</h3>
+                <h2 class="card-title">${employee.getName()}</h2>
+                <h3 class="card-title fst-italic">${employee.getRole()}</h3>
             </div>
             <ul class="list-group list-group-flush">
-            <li class="list-group-item">ID: ${employee.getId()}</li>
-            <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
-            <li class="list-group-item">School: ${employee.getSchool()}</li>
+                <li class="list-group-item">ID: ${employee.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
+                 <li class="list-group-item">School: ${employee.getSchool()}</li>
             </ul>
             </div>
             `
@@ -42,13 +42,13 @@ const createHtml = (employees) => {
             employeeHtml += `
             <div class="card m-4 shadow-md text-center" style="width: 18rem;">
             <div class="card-body bg-warning">
-            <h2 class="card-title">${employee.getName()}</h2>
-            <h3 class="card-title fst-italic">${employee.getRole()}</h3>
+                <h2 class="card-title">${employee.getName()}</h2>
+                 <h3 class="card-title fst-italic">${employee.getRole()}</h3>
             </div>
             <ul class="list-group list-group-flush">
-            <li class="list-group-item">ID: ${employee.getId()}</li>
-            <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
-            <li class="list-group-item">Office Number: ${employee.getOfficeNumber()}</li>
+                <li class="list-group-item">ID: ${employee.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
+                <li class="list-group-item">Office Number: ${employee.getOfficeNumber()}</li>
             </ul>
             </div>
             `
@@ -81,4 +81,4 @@ ${employeeHtml}
 return html
 }
 
-module.exports = createHtml;
+module.exports = generateHTML;
