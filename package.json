@@ -1,0 +1,26 @@
+{
+    "name": "PandaOfficeManager",
+    "version": "1.0.0",
+    "description": "PandaOfficeManager",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PurpxPanda/PandaOfficeManager"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^24.9.0"
+    },
+    "bugs": {
+        "url": "https://github.com/PurpxPanda/PandaOfficeManager/issues"
+    },
+    "homepage": "https://github.com/PurpxPanda/PandaOfficeManager#readme"
+}
