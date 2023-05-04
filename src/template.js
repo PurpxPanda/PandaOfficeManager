@@ -70,7 +70,7 @@ const html = `
 </head>
 </head>
 <body>
-<h1 class "header pb-3">My Team</h1>
+<h1 class "header pb-3">Developer Team</h1>
 <div class="d-flex flex-wrap justify-content-center">
 ${employeeHtml}
 </div>
